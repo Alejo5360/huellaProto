@@ -46,7 +46,7 @@
                 
 
                 <Entry WidthRequest="200"
-                    Placeholder="Nombre"
+                    Placeholder="Nombre de la empresa"
                     
                     Text="{Binding Nombre, Mode=TwoWay}">
                 </Entry>

@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="huellaProto.Views.EncuestaInsti"
+             Title="Institucion Educativa"
+             >
+            
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout >
+                <Image Source="huella_icon" WidthRequest="100" HorizontalOptions="CenterAndExpand"></Image>
+                <Label XAlign="Center" Margin="3" Text="1. Por favor indique el consumo promedio mensual de agua en la institución"></Label>
+                <Label XAlign="Center" Margin="3" TextColor="CadetBlue" Text="*La cantidad solicitada equivale a litros"></Label>
+                
+                <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                    <Image Source="agua_icon" WidthRequest="15"></Image>
+                    <Entry WidthRequest="50" >
+                        
+                    </Entry>
+                    <Label VerticalOptions="Center" Text="Lts."></Label>
+                </StackLayout>
+
+                <Label XAlign="Center" Margin="3" Text="2. Por favor indique el consumo promedio mensual de combustible en la institución"></Label>
+                <Label XAlign="Center" Margin="3" TextColor="CadetBlue" Text="*La cantidad solicitada equivale a litros"></Label>
+                
+                <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                    <Image Source="combustible_icon" WidthRequest="15"></Image>
+                    <Entry WidthRequest="50" >
+
+                    </Entry>
+                    <Label VerticalOptions="Center" Text="Lts."></Label>
+                </StackLayout>
+
+                <Label XAlign="Center" Margin="3" Text="3. Por favor indique el consumo promedio mensual de energia en la institución"></Label>
+                <Label XAlign="Center" Margin="3" TextColor="CadetBlue" Text="*La cantidad solicitada equivale a kilowatts"></Label>
+
+                <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                    <Image Source="energia_icon" WidthRequest="15"></Image>
+                    <Entry WidthRequest="50" >
+
+                    </Entry>
+                    <Label VerticalOptions="Center" Text="kW/h."></Label>
+                </StackLayout>
+
+                <Label XAlign="Center" Margin="3" Text="4. Por favor indique el consumo promedio mensual de gas en la institución"></Label>
+                <Label XAlign="Center" Margin="3" TextColor="CadetBlue" Text="*La cantidad solicitada equivale a metros cubicos"></Label>
+
+                <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                    <Image Source="gas_icon" WidthRequest="15"></Image>
+                    <Entry WidthRequest="50" >
+
+                    </Entry>
+                    <Label VerticalOptions="Center" Text="m3."></Label>
+                </StackLayout>
+                <StackLayout
+                    Orientation="Horizontal"
+                    VerticalOptions="CenterAndExpand"
+                    >
+                    <Button
+                            
+                            Text="Calcular" 
+                            BackgroundColor="#61edb9"
+                            TextColor="White" 
+                            BorderRadius="23"
+                            HeightRequest="46"
+                            WidthRequest="200"                
+                            HorizontalOptions="CenterAndExpand" 
+                            Command="{Binding LoginCommand}" 
+                            IsEnabled="{Binding Isnabled, Mode=TwoWay}">
+                    </Button>
+
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                    <Image Source="logos_sena" WidthRequest="130" ></Image>
+
+                </StackLayout>
+                <StackLayout>
+                    <Image Margin="-11" Source="foot_icon" >
+
+                    </Image>
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>                              

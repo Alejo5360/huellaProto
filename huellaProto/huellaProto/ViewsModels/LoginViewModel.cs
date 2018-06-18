@@ -21,6 +21,7 @@ namespace huellaProto.ViewModels
         #endregion
 
         #region Propiedades
+
         public string Email
         {
             get { return this.email; }
@@ -71,6 +72,13 @@ namespace huellaProto.ViewModels
                 return new RelayCommand(Regi);
             }
         }
+        public ICommand CalcularCommand
+        {
+            get
+            {
+                return new RelayCommand(Calcu);
+            }
+        }
 
 
 
@@ -118,14 +126,24 @@ namespace huellaProto.ViewModels
             this.Password = string.Empty;
 
             MainViewModel.GetInstance().huellaProto = new huellaViewModel();
-            await Application.Current.MainPage.Navigation.PushAsync(new huellaProto());
+            await Application.Current.MainPage.Navigation.PushAsync(new EncuestaInsti());
 
         }
         private async void Regi()
         {
-            
-            MainViewModel.GetInstance().huellaProto = new huellaViewModel();
+          
+                
+
+                MainViewModel.GetInstance().huellaProto = new huellaViewModel();
             await Application.Current.MainPage.Navigation.PushAsync(new registroInsti());
+
+        }
+
+        private async void Calcu()
+        {
+
+            MainViewModel.GetInstance().huellaProto = new huellaViewModel();
+            await Application.Current.MainPage.Navigation.PushAsync(new CalcularInsti());
 
         }
 

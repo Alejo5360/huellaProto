@@ -2,40 +2,42 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="huellaProto.Views.EncuestaInsti"
-             Title="Institucion Educativa"
+             
               BindingContext="{Binding Main,Source={StaticResource Locator}}"
              >
             
     <ContentPage.Content>
         <ScrollView BindingContext="{Binding Login}">
-            <StackLayout >
+            <StackLayout Margin="20">
                 <Image Source="huella_icon" WidthRequest="100" HorizontalOptions="CenterAndExpand"></Image>
-                <Label XAlign="Center" Margin="3" Text="1. Por favor indique el consumo promedio mensual de agua en la institución"></Label>
-                <Label XAlign="Center" Margin="3" TextColor="CadetBlue" Text="*La cantidad solicitada equivale a litros"></Label>
+
+                <Label XAlign="Start" Margin="0,8" Text="Por favor indique el consumo promedio mensual en la institución de:"></Label>
+                <Label XAlign="Start" Text="1.Agua"></Label>
+                <Label XAlign="Start" Margin="3" TextColor="#61edb9" Text="*La cantidad solicitada equivale a litros"></Label>
                 
-                <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                <StackLayout Orientation="Horizontal" HorizontalOptions="Start">
                     <Image Source="agua_icon" WidthRequest="15"></Image>
-                    <Entry WidthRequest="50" >
+                    <Entry  WidthRequest="50" >
                         
                     </Entry>
                     <Label VerticalOptions="Center" Text="Lts."></Label>
                 </StackLayout>
 
-                <Label XAlign="Center" Margin="3" Text="2. Por favor indique el consumo promedio mensual de combustible en la institución"></Label>
-                <Label XAlign="Center" Margin="3" TextColor="CadetBlue" Text="*La cantidad solicitada equivale a litros"></Label>
-                
-                <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                <Label XAlign="Start" Margin="3" Text="2. Combustible"></Label>
+                <Label XAlign="Start" Margin="3" TextColor="#61edb9" Text="*La cantidad solicitada equivale a galones"></Label>
+
+                <StackLayout Orientation="Horizontal" HorizontalOptions="Start">
                     <Image Source="combustible_icon" WidthRequest="15"></Image>
                     <Entry WidthRequest="50" >
 
                     </Entry>
-                    <Label VerticalOptions="Center" Text="Lts."></Label>
+                    <Label VerticalOptions="Center" Text="Gal."></Label>
                 </StackLayout>
 
-                <Label XAlign="Center" Margin="3" Text="3. Por favor indique el consumo promedio mensual de energia en la institución"></Label>
-                <Label XAlign="Center" Margin="3" TextColor="CadetBlue" Text="*La cantidad solicitada equivale a kilowatts"></Label>
+                <Label XAlign="Start" Margin="3" Text="3. Energía"></Label>
+                <Label XAlign="Start" Margin="3" TextColor="#61edb9" Text="*La cantidad solicitada equivale a kilowatts"></Label>
 
-                <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                <StackLayout Orientation="Horizontal" HorizontalOptions="Start">
                     <Image Source="energia_icon" WidthRequest="15"></Image>
                     <Entry WidthRequest="50" >
 
@@ -43,10 +45,10 @@
                     <Label VerticalOptions="Center" Text="kW/h."></Label>
                 </StackLayout>
 
-                <Label XAlign="Center" Margin="3" Text="4. Por favor indique el consumo promedio mensual de gas en la institución"></Label>
-                <Label XAlign="Center" Margin="3" TextColor="CadetBlue" Text="*La cantidad solicitada equivale a metros cubicos"></Label>
+                <Label XAlign="Start" Margin="3" Text="4. Gas"></Label>
+                <Label XAlign="Start" Margin="3" TextColor="#61edb9" Text="*La cantidad solicitada equivale a metros cubicos"></Label>
 
-                <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                <StackLayout Orientation="Horizontal" HorizontalOptions="Start">
                     <Image Source="gas_icon" WidthRequest="15"></Image>
                     <Entry WidthRequest="50" >
 

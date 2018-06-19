@@ -79,11 +79,26 @@ namespace huellaProto.ViewModels
                 return new RelayCommand(Calcu);
             }
         }
+        public ICommand ForgotPasswordCommand
+        {
+            get
+            {
+                return new RelayCommand(Forgot);
+            }
+        }
+        public ICommand RegisCommand
+        {
+            get
+            {
+                return new RelayCommand(Regi);
+            }
+        }
 
 
 
         private async void Login()
         {
+           
             //Validar si es null o vacio la propiedad
             if (string.IsNullOrEmpty(this.Email))
             {
@@ -147,6 +162,13 @@ namespace huellaProto.ViewModels
 
         }
 
+        private async void Forgot()
+        {
+
+            MainViewModel.GetInstance().huellaProto = new huellaViewModel();
+            await Application.Current.MainPage.Navigation.PushAsync(new ForgotPass());
+
+        }
         #endregion
     }
 }

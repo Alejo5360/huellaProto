@@ -15,9 +15,9 @@
                 <Label XAlign="Start" Text="1.Agua"></Label>
                 <Label XAlign="Start" Margin="3" TextColor="#61edb9" Text="*La cantidad solicitada equivale a litros"></Label>
                 
-                <StackLayout Orientation="Horizontal" HorizontalOptions="Start">
+                <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
                     <Image Source="agua_icon" WidthRequest="15"></Image>
-                    <Entry  WidthRequest="50" >
+                    <Entry  WidthRequest="100" >
                         
                     </Entry>
                     <Label VerticalOptions="Center" Text="Lts."></Label>
@@ -26,9 +26,9 @@
                 <Label XAlign="Start" Margin="3" Text="2. Combustible"></Label>
                 <Label XAlign="Start" Margin="3" TextColor="#61edb9" Text="*La cantidad solicitada equivale a galones"></Label>
 
-                <StackLayout Orientation="Horizontal" HorizontalOptions="Start">
+                <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
                     <Image Source="combustible_icon" WidthRequest="15"></Image>
-                    <Entry WidthRequest="50" >
+                    <Entry WidthRequest="100" >
 
                     </Entry>
                     <Label VerticalOptions="Center" Text="Gal."></Label>
@@ -37,9 +37,9 @@
                 <Label XAlign="Start" Margin="3" Text="3. Energía"></Label>
                 <Label XAlign="Start" Margin="3" TextColor="#61edb9" Text="*La cantidad solicitada equivale a kilowatts"></Label>
 
-                <StackLayout Orientation="Horizontal" HorizontalOptions="Start">
+                <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
                     <Image Source="energia_icon" WidthRequest="15"></Image>
-                    <Entry WidthRequest="50" >
+                    <Entry WidthRequest="100" >
 
                     </Entry>
                     <Label VerticalOptions="Center" Text="kW/h."></Label>
@@ -48,9 +48,9 @@
                 <Label XAlign="Start" Margin="3" Text="4. Gas"></Label>
                 <Label XAlign="Start" Margin="3" TextColor="#61edb9" Text="*La cantidad solicitada equivale a metros cubicos"></Label>
 
-                <StackLayout Orientation="Horizontal" HorizontalOptions="Start">
+                <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
                     <Image Source="gas_icon" WidthRequest="15"></Image>
-                    <Entry WidthRequest="50" >
+                    <Entry WidthRequest="100" >
 
                     </Entry>
                     <Label VerticalOptions="Center" Text="m3."></Label>

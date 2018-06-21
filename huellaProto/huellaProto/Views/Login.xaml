@@ -10,18 +10,19 @@
             >
     <ContentPage.Content>
         
-        <ScrollView BindingContext="{Binding Login}">
-            <StackLayout Padding="10">
+        <ScrollView BindingContext="{Binding Login}" >
+            <StackLayout Padding="0,30,0,0"  >
                 
                 <Image 
                     Source="huella_icon"
-                    WidthRequest="100">
+                    WidthRequest="150">
                 </Image>
-                <StackLayout Orientation="Horizontal" HorizontalOptions="Center" >
+                
+                <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Padding="0,50,0,0" >
                     <Image
                         
                         Source="user_icon"
-                        WidthRequest="15">
+                        WidthRequest="20">
                         
                     </Image>
                 
@@ -36,7 +37,7 @@
                     <Image
                         
                         Source="pass_icon"
-                        WidthRequest="15">
+                        WidthRequest="20">
 
                     </Image>
                     
@@ -48,8 +49,8 @@
                 </StackLayout>
                 
                 <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
-                <Image Source="forget_icon" WidthRequest="25"></Image>
-                    <Label 
+                <Image Source="forget_icon" WidthRequest="30"></Image>
+                    <Label FontSize="20"
                     HorizontalOptions="Center"
                     Text="Olvidé mi contraseña"
                     TextColor="#05cec8"
@@ -64,7 +65,7 @@
                     Orientation="Horizontal"
                     HorizontalOptions="CenterAndExpand"
                     >
-                    <Label
+                    <Label FontSize="20"
                         Text="Recordarme"
                         VerticalOptions="Center"
                         HorizontalOptions="StartAndExpand">
@@ -75,11 +76,11 @@
                 </StackLayout>
                 <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
                     
-                    <Label Text="¿No tiene cuenta?">
+                    <Label FontSize="15" Text="¿No tiene cuenta?">
                         
                     </Label>
 
-                    <Label
+                    <Label FontSize="15"
                         HorizontalOptions="Center"
                         Text="REGISTRESE AQUÍ"
                         TextColor="#05cec8"
@@ -89,31 +90,10 @@
                         </Label.GestureRecognizers>
                     </Label>
 
-
-                    <!--<Label 
-                    HorizontalOptions="Center"
-                    Text="REGISTRESE AQUÍ"
-                    TextColor="#05cec8"
-                    VerticalOptions="CenterAndExpand"
-                    >
-                        
-                </Label>-->
-                    <!--<Button
-                            
-                            Text="Registrar" 
-                            BackgroundColor="#61edb9"
-                            TextColor="White" 
-                            BorderRadius="23"
-                            HeightRequest="36"
-                            WidthRequest="100"                
-                            HorizontalOptions="CenterAndExpand" 
-                            Command="{Binding RegistroCommand}" 
-                            IsEnabled="{Binding Isnabled, Mode=TwoWay}">
-                    </Button>-->
                 </StackLayout>
-                <StackLayout
+                <StackLayout Padding="0,50,0,0"
                     Orientation="Horizontal"
-                    VerticalOptions="CenterAndExpand"
+                    VerticalOptions="StartAndExpand"
                     >
                     <Button
                             
@@ -130,7 +110,7 @@
                     
                 </StackLayout>
                 <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
-                    <Image Source="logos_sena" WidthRequest="130" ></Image>
+                    <Image Source="logos_sena" WidthRequest="200" ></Image>
                     
                 </StackLayout>
                 <StackLayout>

@@ -15,6 +15,7 @@ namespace huellaProto.Views
 		public EncuestaInsti ()
 		{
 			InitializeComponent ();
+
 		}
 	}
 }

@@ -1,5 +1,4 @@
-﻿
-namespace huellaProto.ViewModels
+﻿namespace huellaProto.ViewModels
 {
     using GalaSoft.MvvmLight.Command;
     using huellaProto.Views;
@@ -11,7 +10,7 @@ namespace huellaProto.ViewModels
     {
         //Evento de la interfaz INotifyPropertyChanged para refrescar las vistas
         #region Eventos
-        public event PropertyChangedEventHandler PropertyChanged;
+       
         #endregion
         #region Atributos
         private string password;
@@ -52,7 +51,10 @@ namespace huellaProto.ViewModels
         {
             this.IsRemembered = true;
             this.isEnabled = true;
-          
+
+            this.Email = "a@a.com";
+            this.Password = "123";
+
         }
         #endregion
 
@@ -98,7 +100,7 @@ namespace huellaProto.ViewModels
 
         private async void Login()
         {
-           
+
             //Validar si es null o vacio la propiedad
             if (string.IsNullOrEmpty(this.Email))
             {
@@ -109,6 +111,7 @@ namespace huellaProto.ViewModels
 
                 return;
             }
+
 
             this.IsRunning = true;
             this.IsEnabled = false;
@@ -146,10 +149,10 @@ namespace huellaProto.ViewModels
         }
         private async void Regi()
         {
-          
-                
 
-                MainViewModel.GetInstance().huellaProto = new huellaViewModel();
+
+
+            MainViewModel.GetInstance().huellaProto = new huellaViewModel();
             await Application.Current.MainPage.Navigation.PushAsync(new registroInsti());
 
         }

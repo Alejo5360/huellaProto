@@ -5,26 +5,29 @@
              
               BindingContext="{Binding Main,Source={StaticResource Locator}}"
              >
-            
+
     <ContentPage.Content>
         <ScrollView BindingContext="{Binding Login}">
-            <StackLayout Margin="20">
+            
+            <StackLayout Padding="10">
+                
                 <Image Source="huella_icon" WidthRequest="100" HorizontalOptions="CenterAndExpand"></Image>
 
-                <Label XAlign="Start" Margin="0,8" Text="Por favor indique el consumo promedio mensual en la institución de:"></Label>
-                <Label XAlign="Start" Text="1.Agua"></Label>
-                <Label XAlign="Start" Margin="3" TextColor="#61edb9" Text="*La cantidad solicitada equivale a litros"></Label>
-                
+                <Label XAlign="Center" FontSize="20" Margin="0,8" Text="El consumo anual de la institucion es de:"></Label>
+                <Label XAlign="Center" Text="1. Viajes en avión"></Label>
+                <Label XAlign="Center" Margin="3" TextColor="#61edb9" Text="*La cantidad solicitada equivale a kilometros"></Label>
+
                 <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
-                    <Image Source="agua_icon" WidthRequest="15"></Image>
+                    <Image Source="avion_icon" WidthRequest="15"></Image>
                     <Entry  WidthRequest="100" >
-                        
+
                     </Entry>
-                    <Label VerticalOptions="Center" Text="Lts."></Label>
+                    <Label VerticalOptions="Center" Text="Km/h."></Label>
                 </StackLayout>
 
-                <Label XAlign="Start" Margin="3" Text="2. Combustible"></Label>
-                <Label XAlign="Start" Margin="3" TextColor="#61edb9" Text="*La cantidad solicitada equivale a galones"></Label>
+
+                <Label XAlign="Center" Margin="3" Text="2. Combustible"></Label>
+                <Label XAlign="Center" Margin="3" TextColor="#61edb9" Text="*La cantidad solicitada equivale a galones"></Label>
 
                 <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
                     <Image Source="combustible_icon" WidthRequest="15"></Image>
@@ -34,8 +37,8 @@
                     <Label VerticalOptions="Center" Text="Gal."></Label>
                 </StackLayout>
 
-                <Label XAlign="Start" Margin="3" Text="3. Energía"></Label>
-                <Label XAlign="Start" Margin="3" TextColor="#61edb9" Text="*La cantidad solicitada equivale a kilowatts"></Label>
+                <Label XAlign="Center" Margin="3" Text="3. Energía"></Label>
+                <Label XAlign="Center" Margin="3" TextColor="#61edb9" Text="*La cantidad solicitada equivale a kilowatts"></Label>
 
                 <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
                     <Image Source="energia_icon" WidthRequest="15"></Image>
@@ -45,8 +48,8 @@
                     <Label VerticalOptions="Center" Text="kW/h."></Label>
                 </StackLayout>
 
-                <Label XAlign="Start" Margin="3" Text="4. Gas"></Label>
-                <Label XAlign="Start" Margin="3" TextColor="#61edb9" Text="*La cantidad solicitada equivale a metros cubicos"></Label>
+                <Label XAlign="Center" Margin="3" Text="4. Gas"></Label>
+                <Label XAlign="Center" Margin="3" TextColor="#61edb9" Text="*La cantidad solicitada equivale a metros cubicos"></Label>
 
                 <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
                     <Image Source="gas_icon" WidthRequest="15"></Image>
@@ -82,6 +85,7 @@
 
                     </Image>
                 </StackLayout>
+                
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>

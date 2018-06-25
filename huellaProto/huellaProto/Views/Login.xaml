@@ -12,8 +12,10 @@
         
         <ScrollView BindingContext="{Binding Login}" >
             <StackLayout Padding="0,30,0,0"  >
-                
+
+              
                 <Image 
+                    
                     Source="huella_icon"
                     WidthRequest="150">
                 </Image>

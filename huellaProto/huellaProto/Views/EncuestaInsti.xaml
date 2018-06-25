@@ -14,7 +14,7 @@
                 <Image Source="huella_icon" WidthRequest="100" HorizontalOptions="CenterAndExpand"></Image>
 
                 <Label XAlign="Center" FontSize="20" Margin="0,8" Text="El consumo anual de la institucion es de:"></Label>
-                <Label XAlign="Center" Text="1. Viajes en avión"></Label>
+                <Label XAlign="Center" Text="1. En Viajes en avión"></Label>
                 <Label XAlign="Center" Margin="3" TextColor="#61edb9" Text="*La cantidad solicitada equivale a kilometros"></Label>
 
                 <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
@@ -26,7 +26,7 @@
                 </StackLayout>
 
 
-                <Label XAlign="Center" Margin="3" Text="2. Combustible"></Label>
+                <Label XAlign="Center" Margin="3" Text="2. En Combustible"></Label>
                 <Label XAlign="Center" Margin="3" TextColor="#61edb9" Text="*La cantidad solicitada equivale a galones"></Label>
 
                 <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
@@ -37,7 +37,7 @@
                     <Label VerticalOptions="Center" Text="Gal."></Label>
                 </StackLayout>
 
-                <Label XAlign="Center" Margin="3" Text="3. Energía"></Label>
+                <Label XAlign="Center" Margin="3" Text="3. En Energía"></Label>
                 <Label XAlign="Center" Margin="3" TextColor="#61edb9" Text="*La cantidad solicitada equivale a kilowatts"></Label>
 
                 <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
@@ -48,7 +48,7 @@
                     <Label VerticalOptions="Center" Text="kW/h."></Label>
                 </StackLayout>
 
-                <Label XAlign="Center" Margin="3" Text="4. Gas"></Label>
+                <Label XAlign="Center" Margin="3" Text="4. En Gas"></Label>
                 <Label XAlign="Center" Margin="3" TextColor="#61edb9" Text="*La cantidad solicitada equivale a metros cubicos"></Label>
 
                 <StackLayout Orientation="Horizontal" HorizontalOptions="Center">

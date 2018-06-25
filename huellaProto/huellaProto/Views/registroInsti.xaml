@@ -9,45 +9,18 @@
 
     <ContentPage.Content>
         <ScrollView BindingContext="{Binding Registro}">
-        <StackLayout Padding="10">
+        <StackLayout Padding="0,30,0,0">
             <Image 
                     Source="huella_icon"
-                    WidthRequest="100">
+                    WidthRequest="150">
             </Image>
 
-            <StackLayout
-                    Orientation="Horizontal"
-                    HorizontalOptions="CenterAndExpand"
-                    WidthRequest="300">
-                <Switch ClassId="insti"
-                        HorizontalOptions="End" IsToggled="{Binding IsRemembered, Mode=TwoWay}">
-                </Switch>
-                <Label
-                        Text="Institución educativa"
-                        VerticalOptions="Center"
-                        HorizontalOptions="StartAndExpand">
-                </Label>
-                
-            </StackLayout>
-            <StackLayout
-                    Orientation="Horizontal"
-                    HorizontalOptions="CenterAndExpand"
-                    WidthRequest="300">
-                <Switch ClassId="trans"
-                        HorizontalOptions="End" >
-                </Switch>
-                <Label
-                        Text="Empresa de transporte"
-                        VerticalOptions="Center"
-                        HorizontalOptions="StartAndExpand">
-                </Label>
-                
-            </StackLayout>
-            <StackLayout Orientation="Horizontal" HorizontalOptions="Center" >
+            
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Padding="0,50,0,0" >
                 
 
                 <Entry WidthRequest="200"
-                    Placeholder="Nombre de la empresa"
+                    Placeholder="Institución"
                     
                     Text="{Binding Nombre, Mode=TwoWay}">
                 </Entry>
@@ -98,8 +71,8 @@
                             BackgroundColor="#61edb9"
                             TextColor="White" 
                             BorderRadius="23"
-                            HeightRequest="36"
-                            WidthRequest="100"                
+                            HeightRequest="46"
+                            WidthRequest="200"                
                             HorizontalOptions="CenterAndExpand" 
                             Command="{Binding RegisCommand}" 
                             IsEnabled="{Binding Isnabled, Mode=TwoWay}">
@@ -107,7 +80,7 @@
 
                 </StackLayout>
             <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
-                <Image Source="logos_sena" WidthRequest="130" ></Image>
+                <Image Source="logos_sena" WidthRequest="200" ></Image>
 
             </StackLayout>
             <StackLayout>

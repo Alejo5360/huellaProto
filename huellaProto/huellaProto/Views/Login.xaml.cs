@@ -15,6 +15,7 @@ namespace huellaProto.Views
 		public Login ()
 		{
 			InitializeComponent ();
+
 		}
 	}
 }

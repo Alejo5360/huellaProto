@@ -97,27 +97,6 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\instagram_logo.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\huella_icon.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\forget_icon.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\pass_icon.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\user_icon.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\foot_icon.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\logos_sena.png" />
-  </ItemGroup>
-  <ItemGroup>
     <AndroidResource Include="Resources\mipmap-anydpi-v26\huella_icon.png">
       <Generator>MSBuild:UpdateGeneratedFiles</Generator>
       <SubType>Designer</SubType>
@@ -154,237 +133,104 @@
     </AndroidResource>
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\agua_icon.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\fondos_arboles1_icon.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\fondos_arboles2_icon.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\fondos_arboles3_icon.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\Iconos_aeroplane_icon.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\Iconos_agua_icon.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\Iconos_combustible_icon.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\Iconos_energia_icon.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\Iconos_forget_icon.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\Iconos_gas_icon.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\Iconos_institucion_icon.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\Iconos_pass_icon.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\Iconos_transporte_icon.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\Iconos_user_icon.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\Logo_icon.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\fondos_arboles1_icon.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\fondos_arboles2_icon.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\fondos_arboles3_icon.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\Iconos_aeroplane_icon.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\Iconos_agua_icon.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\Iconos_combustible_icon.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\Iconos_energia_icon.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\Iconos_forget_icon.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\Iconos_gas_icon.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\Iconos_institucion_icon.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\Iconos_pass_icon.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\Iconos_transporte_icon.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\Iconos_user_icon.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\Logo_icon.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\fondos_arboles1_icon.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\fondos_arboles2_icon.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\fondos_arboles3_icon.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\Iconos_aeroplane_icon.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\Iconos_agua_icon.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\Iconos_combustible_icon.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\Iconos_energia_icon.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\Iconos_forget_icon.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\Iconos_gas_icon.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\Iconos_institucion_icon.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\Iconos_pass_icon.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\Iconos_transporte_icon.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\Iconos_user_icon.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\Logo_icon.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\fondos_arboles1_icon.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\fondos_arboles2_icon.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\fondos_arboles3_icon.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\Iconos_aeroplane_icon.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\Iconos_agua_icon.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\Iconos_combustible_icon.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\Iconos_energia_icon.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\Iconos_forget_icon.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\Iconos_gas_icon.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\Iconos_institucion_icon.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\Iconos_pass_icon.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\Iconos_transporte_icon.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\Iconos_user_icon.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\Logo_icon.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\combustible_icon.png" />
+    <AndroidResource Include="Resources\drawable\fondos_arboles1_icon.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\energia_icon.png" />
+    <AndroidResource Include="Resources\drawable\fondos_arboles2_icon.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\gas_icon.png" />
+    <AndroidResource Include="Resources\drawable\fondos_arboles3_icon.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\img_footer_form.png" />
+    <AndroidResource Include="Resources\drawable\Iconos_aeroplane_icon.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\institucion_icon.png" />
+    <AndroidResource Include="Resources\drawable\Iconos_agua_icon.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable-hdpi\agua_icon.png">
-      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
-      <SubType>Designer</SubType>
-    </AndroidResource>
-    <Content Include="Resources\drawable-hdpi\avion_icon.png" />
-    <AndroidResource Include="Resources\drawable-hdpi\combustible_icon.png">
-      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
-      <SubType>Designer</SubType>
-    </AndroidResource>
-    <AndroidResource Include="Resources\drawable-hdpi\energia_icon.png">
-      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
-      <SubType>Designer</SubType>
-    </AndroidResource>
-    <AndroidResource Include="Resources\drawable-hdpi\foot_icon.png">
-      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
-      <SubType>Designer</SubType>
-    </AndroidResource>
-    <AndroidResource Include="Resources\drawable-hdpi\forget_icon.png">
-      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
-      <SubType>Designer</SubType>
-    </AndroidResource>
-    <AndroidResource Include="Resources\drawable-hdpi\gas_icon.png">
-      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
-      <SubType>Designer</SubType>
-    </AndroidResource>
-    <AndroidResource Include="Resources\drawable-hdpi\huella_icon.png">
-      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
-      <SubType>Designer</SubType>
-    </AndroidResource>
-    <AndroidResource Include="Resources\drawable-hdpi\img_footer_form.png">
-      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
-      <SubType>Designer</SubType>
-    </AndroidResource>
-    <AndroidResource Include="Resources\drawable-hdpi\instagram_logo.png">
-      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
-      <SubType>Designer</SubType>
-    </AndroidResource>
-    <AndroidResource Include="Resources\drawable-hdpi\institucion_icon.png">
-      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
-      <SubType>Designer</SubType>
-    </AndroidResource>
-    <AndroidResource Include="Resources\drawable-hdpi\logos_sena.png">
-      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
-      <SubType>Designer</SubType>
-    </AndroidResource>
-    <AndroidResource Include="Resources\drawable-hdpi\pass_icon.png">
-      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
-      <SubType>Designer</SubType>
-    </AndroidResource>
-    <AndroidResource Include="Resources\drawable-hdpi\user_icon.png">
-      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
-      <SubType>Designer</SubType>
-    </AndroidResource>
-    <AndroidResource Include="Resources\drawable-xhdpi\agua_icon.png">
-      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
-      <SubType>Designer</SubType>
-    </AndroidResource>
-    <Content Include="Resources\drawable-xhdpi\avion_icon.png" />
-    <AndroidResource Include="Resources\drawable-xhdpi\combustible_icon.png">
-      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
-      <SubType>Designer</SubType>
-    </AndroidResource>
-    <AndroidResource Include="Resources\drawable-xhdpi\energia_icon.png">
-      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
-      <SubType>Designer</SubType>
-    </AndroidResource>
-    <AndroidResource Include="Resources\drawable-xhdpi\foot_icon.png">
-      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
-      <SubType>Designer</SubType>
-    </AndroidResource>
-    <AndroidResource Include="Resources\drawable-xhdpi\forget_icon.png">
-      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
-      <SubType>Designer</SubType>
-    </AndroidResource>
-    <AndroidResource Include="Resources\drawable-xhdpi\gas_icon.png">
-      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
-      <SubType>Designer</SubType>
-    </AndroidResource>
-    <AndroidResource Include="Resources\drawable-xhdpi\huella_icon.png">
-      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
-      <SubType>Designer</SubType>
-    </AndroidResource>
-    <AndroidResource Include="Resources\drawable-xhdpi\img_footer_form.png">
-      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
-      <SubType>Designer</SubType>
-    </AndroidResource>
-    <AndroidResource Include="Resources\drawable-xhdpi\instagram_logo.png">
-      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
-      <SubType>Designer</SubType>
-    </AndroidResource>
-    <AndroidResource Include="Resources\drawable-xhdpi\institucion_icon.png">
-      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
-      <SubType>Designer</SubType>
-    </AndroidResource>
-    <AndroidResource Include="Resources\drawable-xhdpi\logos_sena.png">
-      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
-      <SubType>Designer</SubType>
-    </AndroidResource>
-    <AndroidResource Include="Resources\drawable-xhdpi\pass_icon.png">
-      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
-      <SubType>Designer</SubType>
-    </AndroidResource>
-    <AndroidResource Include="Resources\drawable-xhdpi\user_icon.png">
-      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
-      <SubType>Designer</SubType>
-    </AndroidResource>
-    <AndroidResource Include="Resources\drawable-xxhdpi\agua_icon.png">
-      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
-      <SubType>Designer</SubType>
-    </AndroidResource>
-    <Content Include="Resources\drawable-xxhdpi\avion_icon.png" />
-    <AndroidResource Include="Resources\drawable-xxhdpi\combustible_icon.png">
-      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
-      <SubType>Designer</SubType>
-    </AndroidResource>
-    <AndroidResource Include="Resources\drawable-xxhdpi\energia_icon.png">
-      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
-      <SubType>Designer</SubType>
-    </AndroidResource>
-    <AndroidResource Include="Resources\drawable-xxhdpi\foot_icon.png">
-      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
-      <SubType>Designer</SubType>
-    </AndroidResource>
-    <AndroidResource Include="Resources\drawable-xxhdpi\forget_icon.png">
-      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
-      <SubType>Designer</SubType>
-    </AndroidResource>
-    <AndroidResource Include="Resources\drawable-xxhdpi\gas_icon.png">
-      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
-      <SubType>Designer</SubType>
-    </AndroidResource>
-    <AndroidResource Include="Resources\drawable-xxhdpi\huella_icon.png">
-      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
-      <SubType>Designer</SubType>
-    </AndroidResource>
-    <AndroidResource Include="Resources\drawable-xxhdpi\img_footer_form.png">
-      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
-      <SubType>Designer</SubType>
-    </AndroidResource>
-    <AndroidResource Include="Resources\drawable-xxhdpi\instagram_logo.png">
-      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
-      <SubType>Designer</SubType>
-    </AndroidResource>
-    <AndroidResource Include="Resources\drawable-xxhdpi\institucion_icon.png">
-      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
-      <SubType>Designer</SubType>
-    </AndroidResource>
-    <AndroidResource Include="Resources\drawable-xxhdpi\logos_sena.png">
-      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
-      <SubType>Designer</SubType>
-    </AndroidResource>
-    <AndroidResource Include="Resources\drawable-xxhdpi\pass_icon.png">
-      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
-      <SubType>Designer</SubType>
-    </AndroidResource>
-    <AndroidResource Include="Resources\drawable-xxhdpi\user_icon.png">
-      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
-      <SubType>Designer</SubType>
-    </AndroidResource>
-    <AndroidResource Include="Resources\drawable-xxxhdpi\agua_icon.png">
-      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
-      <SubType>Designer</SubType>
-    </AndroidResource>
-    <Content Include="Resources\drawable-xxxhdpi\avion_icon.png" />
-    <AndroidResource Include="Resources\drawable-xxxhdpi\combustible_icon.png">
-      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
-      <SubType>Designer</SubType>
-    </AndroidResource>
-    <AndroidResource Include="Resources\drawable-xxxhdpi\energia_icon.png">
-      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
-      <SubType>Designer</SubType>
-    </AndroidResource>
-    <AndroidResource Include="Resources\drawable-xxxhdpi\foot_icon.png">
-      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
-      <SubType>Designer</SubType>
-    </AndroidResource>
-    <AndroidResource Include="Resources\drawable-xxxhdpi\forget_icon.png">
-      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
-      <SubType>Designer</SubType>
-    </AndroidResource>
-    <AndroidResource Include="Resources\drawable-xxxhdpi\gas_icon.png">
-      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
-      <SubType>Designer</SubType>
-    </AndroidResource>
-    <AndroidResource Include="Resources\drawable-xxxhdpi\huella_icon.png">
-      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
-      <SubType>Designer</SubType>
-    </AndroidResource>
-    <AndroidResource Include="Resources\drawable-xxxhdpi\img_footer_form.png">
-      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
-      <SubType>Designer</SubType>
-    </AndroidResource>
-    <AndroidResource Include="Resources\drawable-xxxhdpi\instagram_logo.png">
-      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
-      <SubType>Designer</SubType>
-    </AndroidResource>
-    <AndroidResource Include="Resources\drawable-xxxhdpi\institucion_icon.png">
-      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
-      <SubType>Designer</SubType>
-    </AndroidResource>
-    <AndroidResource Include="Resources\drawable-xxxhdpi\logos_sena.png">
-      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
-      <SubType>Designer</SubType>
-    </AndroidResource>
-    <AndroidResource Include="Resources\drawable-xxxhdpi\pass_icon.png">
-      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
-      <SubType>Designer</SubType>
-    </AndroidResource>
-    <AndroidResource Include="Resources\drawable-xxxhdpi\user_icon.png">
-      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
-      <SubType>Designer</SubType>
-    </AndroidResource>
-    <Content Include="Resources\drawable\avion_icon.png" />
+    <AndroidResource Include="Resources\drawable\Iconos_combustible_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\Iconos_energia_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\Iconos_forget_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\Iconos_gas_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\Iconos_institucion_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\Iconos_pass_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\Iconos_transporte_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\Iconos_user_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\Logo_icon.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>

@@ -11,7 +11,7 @@
         <ScrollView BindingContext="{Binding Registro}">
         <StackLayout Padding="0,30,0,0">
             <Image 
-                    Source="huella_icon"
+                    Source="Logo_icon"
                     WidthRequest="150">
             </Image>
 
@@ -84,7 +84,7 @@
 
             </StackLayout>
             <StackLayout>
-                <Image Margin="-11" Source="foot_icon" >
+                    <Image Margin="-11" Source="fondos_arboles2_icon" >
 
                 </Image>
             </StackLayout>

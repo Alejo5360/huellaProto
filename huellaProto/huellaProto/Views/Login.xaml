@@ -4,10 +4,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="huellaProto.Views.Login"
             BindingContext="{Binding Main,Source={StaticResource Locator}}"
-             Title="Login"
-             
-            
-            >
+             Title="Login">
     <ContentPage.Content>
         
         <ScrollView BindingContext="{Binding Login}" >
@@ -16,15 +13,15 @@
               
                 <Image 
                     
-                    Source="huella_icon"
+                    Source="Logo_icon"
                     WidthRequest="150">
                 </Image>
                 
                 <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Padding="0,50,0,0" >
                     <Image
                         
-                        Source="user_icon"
-                        WidthRequest="20">
+                        Source="Iconos_user_icon"
+                        WidthRequest="25">
                         
                     </Image>
                 
@@ -38,8 +35,8 @@
                 <StackLayout Orientation="Horizontal" HorizontalOptions="Center" >
                     <Image
                         
-                        Source="pass_icon"
-                        WidthRequest="20">
+                        Source="Iconos_pass_icon"
+                        WidthRequest="25">
 
                     </Image>
                     
@@ -51,7 +48,7 @@
                 </StackLayout>
                 
                 <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
-                <Image Source="forget_icon" WidthRequest="30"></Image>
+                    <Image Source="Iconos_forget_icon" WidthRequest="30"></Image>
                     <Label FontSize="20"
                     HorizontalOptions="Center"
                     Text="Olvidé mi contraseña"
@@ -116,7 +113,7 @@
                     
                 </StackLayout>
                 <StackLayout>
-                <Image Margin="-11" Source="foot_icon" >
+                    <Image Margin="-11" Source="fondos_arboles1_icon" >
 
                 </Image>
                 </StackLayout>

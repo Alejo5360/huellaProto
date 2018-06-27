@@ -18,7 +18,7 @@
                 <Label XAlign="Center" Margin="3" TextColor="#61edb9" Text="*La cantidad solicitada equivale a kilometros"></Label>
 
                 <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
-                    <Image Source="Iconos_aeroplane_icon" WidthRequest="25"></Image>
+                    <Image Source="avion_icon" WidthRequest="15"></Image>
                     <Entry  WidthRequest="100" >
 
                     </Entry>
@@ -30,7 +30,7 @@
                 <Label XAlign="Center" Margin="3" TextColor="#61edb9" Text="*La cantidad solicitada equivale a galones"></Label>
 
                 <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
-                    <Image Source="Iconos_combustible_icon" WidthRequest="25"></Image>
+                    <Image Source="combustible_icon" WidthRequest="15"></Image>
                     <Entry WidthRequest="100" >
 
                     </Entry>
@@ -41,7 +41,7 @@
                 <Label XAlign="Center" Margin="3" TextColor="#61edb9" Text="*La cantidad solicitada equivale a kilowatts"></Label>
 
                 <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
-                    <Image Source="Iconos_energia_icon" WidthRequest="25"></Image>
+                    <Image Source="energia_icon" WidthRequest="15"></Image>
                     <Entry WidthRequest="100" >
 
                     </Entry>
@@ -52,7 +52,7 @@
                 <Label XAlign="Center" Margin="3" TextColor="#61edb9" Text="*La cantidad solicitada equivale a metros cubicos"></Label>
 
                 <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
-                    <Image Source="Iconos_gas_icon" WidthRequest="25"></Image>
+                    <Image Source="gas_icon" WidthRequest="15"></Image>
                     <Entry WidthRequest="100" >
 
                     </Entry>
@@ -81,7 +81,7 @@
 
                 </StackLayout>
                 <StackLayout>
-                    <Image Margin="-11" Source="fondos_arboles3_icon" >
+                    <Image Margin="-11" Source="foot_icon" >
 
                     </Image>
                 </StackLayout>

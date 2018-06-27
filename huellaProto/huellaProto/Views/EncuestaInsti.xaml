@@ -18,8 +18,8 @@
                 <Label XAlign="Center" Margin="3" TextColor="#61edb9" Text="*La cantidad solicitada equivale a kilometros"></Label>
 
                 <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
-                    <Image Source="avion_icon" WidthRequest="15"></Image>
-                    <Entry  WidthRequest="100" >
+                    <Image Source="aeroplane_icon" WidthRequest="20"></Image>
+                    <Entry  WidthRequest="100" Keyboard="Numeric">
 
                     </Entry>
                     <Label VerticalOptions="Center" Text="Km/h."></Label>
@@ -31,7 +31,7 @@
 
                 <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
                     <Image Source="combustible_icon" WidthRequest="15"></Image>
-                    <Entry WidthRequest="100" >
+                    <Entry WidthRequest="100" Keyboard="Numeric" >
 
                     </Entry>
                     <Label VerticalOptions="Center" Text="Gal."></Label>
@@ -42,7 +42,7 @@
 
                 <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
                     <Image Source="energia_icon" WidthRequest="15"></Image>
-                    <Entry WidthRequest="100" >
+                    <Entry WidthRequest="100" Keyboard="Numeric">
 
                     </Entry>
                     <Label VerticalOptions="Center" Text="kW/h."></Label>
@@ -53,7 +53,7 @@
 
                 <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
                     <Image Source="gas_icon" WidthRequest="15"></Image>
-                    <Entry WidthRequest="100" >
+                    <Entry WidthRequest="100" Keyboard="Numeric">
 
                     </Entry>
                     <Label VerticalOptions="Center" Text="m3."></Label>
@@ -81,7 +81,7 @@
 
                 </StackLayout>
                 <StackLayout>
-                    <Image Margin="-11" Source="foot_icon" >
+                    <Image Margin="-11" Source="fondos_arboles3_icon.png" >
 
                     </Image>
                 </StackLayout>

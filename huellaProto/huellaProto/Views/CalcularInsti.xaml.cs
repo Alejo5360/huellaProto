@@ -15,6 +15,16 @@ namespace huellaProto.Views
 		public CalcularInsti ()
 		{
 			InitializeComponent ();
-		}
+            var image = new Image { Source = "Arbol.png" };
+            var image2 = new Image { Source = "agua_icon.png" };
+            var treeList = new List<Image>();
+            
+            treeList.Add(image);
+            treeList.Add(image2);
+            
+
+            var picker = new Picker { Title = "Selecciona un arbol" };
+            picker.ItemsSource = treeList;
+        }
 	}
 }

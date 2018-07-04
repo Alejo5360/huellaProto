@@ -8,8 +8,8 @@
              >
 
     <ContentPage.Content>
-        <ScrollView BindingContext="{Binding Registro}">
-        <StackLayout Padding="0,30,0,0">
+        <ScrollView>
+            <StackLayout BindingContext="{Binding Registro}" Padding="0,30,0,0">
             <Image 
                     Source="huella_icon"
                     WidthRequest="150">
@@ -104,11 +104,7 @@
                     </Button>
 
                 </StackLayout>
-            <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
-                <Image Source="logos_sena" WidthRequest="200" ></Image>
-
-            </StackLayout>
-            <StackLayout>
+            <StackLayout Margin="0,20,0,0">
                     <Image Margin="-11" Source="fondos_arboles2_icon.png" >
 
                 </Image>

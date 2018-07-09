@@ -126,6 +126,7 @@ namespace huellaProto.ViewModels
 
                 return;
             }
+            
             if (string.IsNullOrEmpty(this.Direc))
             {
                 Application.Current.MainPage.DisplayAlert(
@@ -136,17 +137,6 @@ namespace huellaProto.ViewModels
                 return;
             }
 
-            if (this.Email != "a@a.com" || this.Password != "123")
-            {
-                this.IsRunning = false;
-                this.IsEnabled = true;
-                 Application.Current.MainPage.DisplayAlert(
-                      "Error"
-                    , "Email o Contraseña Incorrectas"
-                    , "Aceptar");
-                this.Password = string.Empty;
-                return;
-            }
             this.IsRunning = false;
             this.IsEnabled = true;
 

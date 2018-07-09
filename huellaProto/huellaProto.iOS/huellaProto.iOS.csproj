@@ -171,4 +171,64 @@
   <ItemGroup>
     <BundleResource Include="Resources\huella_icon.png" />
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\aeroplane_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\agua_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Arbol.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\combustible_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\email.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\energia_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\fondos_arboles2_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\fondos_arboles3_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\foot_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\forget_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\gas_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\img_footer_form.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\instagram_logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\institucion_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\letter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\logos_sena.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\nit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\pass_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\sign.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\user_icon.png" />
+  </ItemGroup>
 </Project>

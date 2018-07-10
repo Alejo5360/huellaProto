@@ -9,13 +9,15 @@ using Xamarin.Forms.Xaml;
 
 namespace huellaProto.Views
 {
-	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class Login : ContentPage
-	{
-		public Login ()
-		{
-			InitializeComponent ();
+    [XamlCompilation(XamlCompilationOptions.Compile)]
+    public partial class Login : ContentPage
+    {
+        public Login()
+        {
+            InitializeComponent();
 
-		}
-	}
+        }
+
+        
+    }
 }
